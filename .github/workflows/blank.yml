@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: "Welcome"
+        run: echo "Welcome"
   test:
     runs-on: ubuntu-latest
     steps:
@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy
-        run: "Welcome"
+        run: echo "Welcome"
   
